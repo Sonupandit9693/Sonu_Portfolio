@@ -3,7 +3,7 @@ import {CgMenuRight} from "react-icons/cg"
 import {IoMdClose} from "react-icons/io"
 import "./style.scss"
 import CallToAction from "../shared/callToAction"
-import logo from "../../../images/logo.png"
+// import logo from "../../../images/logo.png"
 import {scrollToSection} from "../../utils/helpers"
 const Navigation = () => {
   const [mobileMenu , setMobileMenu] = useState(false);

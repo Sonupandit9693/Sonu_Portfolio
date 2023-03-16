@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 
 import Section from "../intro/shared/section";
-import Logo from "../../images/logo.png";
+// import Logo from "../../images/logo.png";
 import SocialIcon from "./social-icon";
 import { scrollToSection } from "../utils/helpers";
 
