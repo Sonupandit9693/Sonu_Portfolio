@@ -7,69 +7,75 @@ import "./style.scss"
 const projectsData = [
     {
         id: 1,
-        name: "Healthy Food Restraunt",
+        name: "Youtube clone",
         tags: ["web-app", "mobile-app"],
         url: "https://youtube-clone-by-sonukumar.netlify.app/",
         media: {
-            thumbnail: require("../../images/portfolio/thumb-7.jpg"),
+            thumbnail: require("../../images/portfolio/1.jpg"),
             
         },
     },
     {
         id: 2,
-        name: "Anna & Daniel",
+        name: "Cocktail soft drink",
         tags: ["web-page"],
-        url: "https://google-search-engine-clone02.netlify.app/",
+        url: "https://cock-search-drink.netlify.app/",
         media: {
-            thumbnail: require("../../images/portfolio/thumb-2.jpg"),
+            thumbnail: require("../../images/portfolio/5.jpg"),
         },
     },
     {
         id: 3,
-        name: "Web Design Landing Page",
+        name: "Ai chat application",
         tags: ["web-page"],
+        url: "https://github.com/Sonupandit9693/Ai-chat-application",
         media: {
-            thumbnail: require("../../images/portfolio/thumb-8.jpg"),
+            thumbnail: require("../../images/portfolio/4.jpg"),
         },
     },
     {
         id: 4,
-        name: "Business Analytics Web App",
+        name: "Google search engine",
         tags: ["web-app", "mobile-app"],
+        url: "https://google-search-engine-clone02.netlify.app/",
         media: {
-            thumbnail: require("../../images/portfolio/thumb-1.jpg"),
+            thumbnail: require("../../images/portfolio/3.jpg"),
         },
     },
     {
         id: 5,
-        name: "Limitless",
+        name: "simple portfolio",
         tags: ["web-app", "web-page"],
-        media: {
-            thumbnail: require("../../images/portfolio/thumb-6.jpg"),
-        },
-    },
-    {
-        id: 6,
-        name: "Dashboard",
-        tags: ["product", "web-app", "mobile-app"],
-        media: {
-            thumbnail: require("../../images/portfolio/thumb-4.jpg"),
-        },
-    },
-    {
-        id: 7,
-        name: "Digital Creative Agency",
-        tags: ["web-app"],
+        url: "https://sonupandit9693.github.io/my-portfolio/",
         media: {
             thumbnail: require("../../images/portfolio/thumb-3.jpg"),
         },
     },
     {
-        id: 8,
-        name: "Virtual Reality Experience",
+        id: 6,
+        name: "Netflix UI",
+        tags: ["web-page"],
+        url:"https://sonupandit9693.github.io/Netflix-clone/",
+        media: {
+            thumbnail: require("../../images/portfolio/6.jpg"),
+        },
+    },
+    {
+        id: 7,
+        name: "Nike shoes shop ",
+        message:"work on it",
         tags: ["web-app", "mobile-app", "web-page"],
         media: {
             thumbnail: require("../../images/portfolio/thumb-5.jpg"),
+        },
+    },
+    {
+        id: 8,
+        name: "Dashboard ",
+        message:"work on it",
+        tags: ["product", "web-app", "mobile-app"],
+        media: {
+            thumbnail: require("../../images/portfolio/thumb-4.jpg"),
         },
     },
 ]

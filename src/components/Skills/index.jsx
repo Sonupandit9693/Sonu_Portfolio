@@ -9,7 +9,7 @@ import Section from "../intro/shared/section";
 const Skills = () => {
     return (
         <Section
-            background="dark"
+            background="white"
             id="skills"
         >
             <div className="skills-content-wrapper">
@@ -34,10 +34,13 @@ const Skills = () => {
                         to deliver cutting-edge web development solutions to my
                         clients.
                     </p>
-                    <CallToAction
+                    
+                    <a href="../../images/sonu.pdf" download >
+                     <CallToAction
                         text="Download CV"
                         icon={<AiOutlineCloudDownload />}
                     />
+                    </a>
                 </div>
             </div>
         </Section>

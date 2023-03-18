@@ -1,11 +1,11 @@
 import React from "react";
+import {SiGeeksforgeeks, SiLeetcode,SiCodingninjas} from "react-icons/si"
 
 import {
-    FaYoutube,
     FaLinkedinIn,
     FaGithub,
     FaStackOverflow,
-    FaInstagram,
+
 } from "react-icons/fa";
 
 import Section from "../intro/shared/section";
@@ -58,26 +58,37 @@ const Footer = () => {
                     </ul>
                     <div className="social-icons">
                         <SocialIcon
-                            color="#FF0000"
-                            icon={<FaYoutube />}
+                            link="https://auth.geeksforgeeks.org/user/sonupandi9lc1/"
+                            color="#078307"
+                            icon={<SiGeeksforgeeks/>}
                         />
                         <SocialIcon
+                            link="https://github.com/Sonupandit9693"
                             color="#0D2636"
-                            icon={<FaGithub to="https://github.com/Sonupandit9693" />}
+                            icon={<FaGithub />}
                         />
                         <SocialIcon
+                            link="https://www.linkedin.com/in/sonu-kumar-20128622b/"
                             color="#0A66C2"
                             icon={<FaLinkedinIn />}
                         />
                         <SocialIcon
+                            link="https://www.codingninjas.com/codestudio/profile/sonu_kumar"
+                            color="#df8a1b"
+                            icon={<SiCodingninjas/>}
+                        />
+                        <SocialIcon
+                            link="https://leetcode.com/sonupandit/"
+                            color="#ffaf03"
+                            icon={<SiLeetcode/>}
+                        />
+                        <SocialIcon
+                            link="https://stackoverflow.com/users/21094503/sonu-kumar"
                             color="#f2740d"
                             icon={<FaStackOverflow />}
                         />
-                        <SocialIcon
-                            
-                            color="#E84C88"
-                            icon={<FaInstagram />}
-                        />
+
+                        
                     </div>
                     <div className="bottom-bar">
                         <div className="copyright-text">

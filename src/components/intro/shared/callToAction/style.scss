@@ -11,11 +11,13 @@
     align-items: center;
     justify-content: center;
     color: $black-light;
+    color: #df8a1b;
     cursor: pointer;
     position: relative;
     overflow: hidden;
     @include typography(18px, 400, 1);
     .text, .arrow-icon, .icon{
+        text-decoration: none;
         position: relative;
         z-index: 1;
         transition: all ease 500ms ;

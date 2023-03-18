@@ -2,7 +2,7 @@ import React from 'react'
 import "./style.scss"
 import Arrow from "../../intro/shared/arrow"
 
-const BlogCard = ({user, date, image, title, description}) => {
+const BlogCard = ({user, date, image, title, description,message}) => {
   return (
     <div className="blog-card">
         <div className="image-section">
@@ -14,7 +14,8 @@ const BlogCard = ({user, date, image, title, description}) => {
                 <div className="posted-date">{date}</div>
             </div>
             <h3>{title}</h3>
-            <p>{description}</p>
+            <p>{description}</p><br/>
+            <p>{message}</p>
             <div className="readmore-cta">
                 <span className="text">Read more</span>
                 <Arrow/>

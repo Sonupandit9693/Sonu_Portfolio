@@ -4,10 +4,10 @@ import { FaUser } from "react-icons/fa";
 
 import "./style.scss";
 // import girl from "../../../images/girl.png";
-import sonu from "../../../images/sonu.png"
+import sonu from "../../../images/sonu.png";
 import hand from "../../../images/hand.png";
 import CallToAction from "../shared/callToAction";
-import {scrollToSection} from "../../utils/helpers"
+import { scrollToSection } from "../../utils/helpers";
 
 const IntroCOntent = () => {
     return (
@@ -28,12 +28,15 @@ const IntroCOntent = () => {
                         <span className="big-text">Sonu Kumar</span>
                     </h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Amet minima delectus assumenda explicabo, fugiat ipsa
-                        autem consequatur eveniet illo earum facilis doloribus,
-                        eaque nostrum minus.
+                        Highly motivated and innovative web developer with a
+                        keen eye for detail, seeking a dynamic opportunity to
+                        apply my skills and learn from industry experts as a
+                        part of a talented team.
                     </p>
-                    <CallToAction text="Contact me" action={() => scrollToSection("contact")} />
+                    <CallToAction
+                        text="Contact me"
+                        action={() => scrollToSection("contact")}
+                    />
                 </div>
                 <div className="right-col">
                     <img
@@ -44,7 +47,9 @@ const IntroCOntent = () => {
                         <div className="icon">
                             <BsAwardFill />
                         </div>
-                        <div className="text">Amazing projects here below 👇</div>
+                        <div className="text">
+                            Amazing projects here below 👇
+                        </div>
                     </div>
                     <div className="highlights verticle">
                         <div className="icon">
