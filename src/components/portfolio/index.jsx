@@ -103,6 +103,7 @@ const Portfolio = () => {
         }, 600);
 
     }
+    
   return (
     <Section id="portfolio" title="Check-my-portfolio" background="light">
         <div className="portfolio-content-wrapper">

@@ -16,7 +16,7 @@ const BLogs = () => {
             image={Blog1}
             title="Web devlopment"
             description="This is blog by guide how to web technologies..."
-            message="not completed"
+            message="Working on it..."
         />
         <BlogCard 
             user="Sonu kumar"
@@ -24,11 +24,12 @@ const BLogs = () => {
             image={Blog2}
             title="programming "
             description="Which programming language you should learn first..."
-            message="not completed"
+            message="Working on it.."
         />
         <BlogCard 
             user="Sonu kumar"
             date="7 march 2023"
+            message="Working on it..."
             image={Blog3}
             title="Project building"
             description="How to build your project effectively through latest frameworks..."

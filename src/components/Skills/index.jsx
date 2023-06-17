@@ -9,7 +9,7 @@ import Section from "../intro/shared/section";
 const Skills = () => {
     return (
         <Section
-            background="white"
+            background="dark"
             id="skills"
         >
             <div className="skills-content-wrapper">
@@ -35,7 +35,8 @@ const Skills = () => {
                         clients.
                     </p>
                     
-                    <a href="../../images/sonu.pdf" download >
+                    <a href="sonu.pdf" 
+                    download="sonu.pdf" >
                      <CallToAction
                         text="Download CV"
                         icon={<AiOutlineCloudDownload />}
