@@ -26,11 +26,11 @@ const projectsData = [
     },
     {
         id: 3,
-        name: "Ai chat application",
-        tags: ["web-page"],
-        url: "https://github.com/Sonupandit9693/Ai-chat-application",
+        name: "Todo App",
+        url:"https://646f153fa13e221be397ec63--lucent-vacherin-7acead.netlify.app/",
+        tags: ["product", "web-app", "mobile-app"],
         media: {
-            thumbnail: require("../../images/portfolio/4.jpg"),
+            thumbnail: require("../../images/portfolio/todo.jpg"),
         },
     },
     {
@@ -42,8 +42,27 @@ const projectsData = [
             thumbnail: require("../../images/portfolio/3.jpg"),
         },
     },
+    
     {
         id: 5,
+        name: "Blog app",
+        url:"https://github.com/Sonupandit9693/Blogs.coding.tech",
+        tags: ["web-app", "mobile-app", "web-page"],
+        media: {
+            thumbnail: require("../../images/portfolio/thumb-5.jpg"),
+        },
+    },
+    {
+        id: 6,
+        name: "Url shortner ",
+        url:"https://github.com/Sonupandit9693/Learning-Node-js-Project/tree/main/Url-Shortner",
+        tags: ["product", "web-app"],
+        media: {
+            thumbnail: require("../../images/portfolio/thumb-4.jpg"),
+        },
+    },
+    {
+        id: 7,
         name: "simple portfolio",
         tags: ["web-app", "web-page"],
         url: "https://sonupandit9693.github.io/my-portfolio/",
@@ -52,7 +71,7 @@ const projectsData = [
         },
     },
     {
-        id: 6,
+        id: 8,
         name: "Netflix UI",
         tags: ["web-page"],
         url:"https://sonupandit9693.github.io/Netflix-clone/",
@@ -60,22 +79,23 @@ const projectsData = [
             thumbnail: require("../../images/portfolio/6.jpg"),
         },
     },
+   
     {
-        id: 7,
-        name: "Nike shoes shop ",
-        message:"work on it",
-        tags: ["web-app", "mobile-app", "web-page"],
+        id: 9,
+        name: "Discord bot",
+        tags: ["web-page"],
+        url: "https://github.com/Sonupandit9693/Learning-Node-js-Project/tree/main/Discord-Bot",
         media: {
-            thumbnail: require("../../images/portfolio/thumb-5.jpg"),
+            thumbnail: require("../../images/portfolio/Bot.jpg"),
         },
     },
     {
-        id: 8,
-        name: "Dashboard ",
-        message:"work on it",
-        tags: ["product", "web-app", "mobile-app"],
+        id: 10,
+        name: "Ai chat application",
+        tags: ["web-page"],
+        url: "https://github.com/Sonupandit9693/Ai-chat-application",
         media: {
-            thumbnail: require("../../images/portfolio/thumb-4.jpg"),
+            thumbnail: require("../../images/portfolio/4.jpg"),
         },
     },
 ]
